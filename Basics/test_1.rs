@@ -21,6 +21,13 @@ fn main()
 	
 	printInt32(x);
 	println!("5 + 1 = {}", addOne(5));
+	
+	let mut array1: [i32; 5];
+	array1 = [12, 6000, 53, 8, -61];
+	
+	println!("I have an array of: {}, {}, {}, {} and {}", array1[0], array1[1], array1[2], array1[3], array1[4]);
+	
+	
 }
 
 fn printInt32(x: i32)
